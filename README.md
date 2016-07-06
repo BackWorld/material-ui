@@ -33,7 +33,7 @@ After npm install, you'll find all the .jsx files in the /src folder and their c
 Some components use [react-tap-event-plugin](https://github.com/zilverline/react-tap-event-plugin) to
 listen for touch events. This dependency is temporary and will go away once react v1.0 is released. Until then, be
 sure to inject this plugin at the start of your app.
-```js
+```OC
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 //Needed for onTouchTap
